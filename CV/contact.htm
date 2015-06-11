@@ -1,0 +1,115 @@
+<<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Contact</title>
+</head>
+
+<body>
+	<header>
+	<h1>Contacter le père noël</h1>
+	<nav>
+		<ul>
+			<li><a href="index.htm">Acceuil du site</a></li>
+			<li><a href="contact.htm">Contact</a></li>
+		</ul>
+	</nav>
+	</header>
+
+	<main>
+	<h2>Contactez-moi!</h2>
+		<form>
+			<fieldset>
+				<legend>Informations personelles</legend>
+				<div>
+					<label>Vous êtes?</label>
+					<select>
+						<option value="Cadeau">Demandeur de cadeau</option>
+						<option value="Réclamateur">Réclamateur</option>
+						<option value="SAV">Cherchant le SAV</option>
+					</select>
+				</div>
+
+				<div>
+					<label for="name">Nom</label>
+					<input type="text" id="name" name="nom" placeholder="Dupont">
+				</div>
+
+				<div>
+					<label for="firstname">Prénom</label>
+					<input type="text" id="firstname" name="Prénom" placeholder="Jean-Mouloud">
+				</div>
+
+				<div>
+					<label for="phone">Téléphone</label>
+					<input type="text" id="phone" name="Téléphone" placeholder="0606060606">
+				</div>
+
+				<div>
+					<label for="Email">Email</label>
+					<input type="text" id="Email" name="email" placeholder="Jean-Mouloud@j'aimepasmonprénom.com">
+				</div>
+
+				<div>
+					<label for="message">Corps du messages</label>
+					<textarea type="message" id="message" name="message" placeholder="Ecrivez votre liste pour le prochain noël"></textarea>
+				</div>
+
+				<div class="field_line">
+                        <label for="color">Couleur préférée</label>
+                        <input type="color" id="color" name="">
+                    </div>
+			</fieldset>
+
+			 <fieldset>
+                    <legend>Informations complémentaires</legend>
+                    <div class="field_group">
+                        <h3>Sexe</h3>
+                        <ul>
+                            <li class="field_group_line">
+                                <input type="radio" name="sexe" id="sex1">
+                                <label for="sex1">Mâle</label>
+                            </li>
+                            <li class="field_group_line">
+                                <input type="radio" name="sexe" id="sex2">
+                                <label for="sex2">Femelle</label>
+                            </li>
+                            <li class="field_group_line">
+                                <input type="radio" name="sexe" id="sex3">
+                                <label for="sex3">Autre</label>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="field_group">
+                        <h3>Vous aimez ?</h3>
+                        <ul>
+                            <li class="field_group_line">
+                                <input type="checkbox">
+                                <label for="">Le chocolat</label>
+                            </li>
+                            <li class="field_group_line">
+                                <input type="checkbox">
+                                <label for="">Les fraises</label>
+                            </li>
+                            <li class="field_group_line">
+                                <input type="checkbox">
+                                <label for="">Le thé</label>
+                            </li>
+                        </ul>
+                    </div>
+                </fieldset>
+                <div class="validation">
+                    <input type="submit" value="Envoyer ces infos">
+                </div>
+            </form>
+        </main>
+
+        <footer>
+            <address>
+                <strong>Adresse</strong>
+                <span class="street">15, rue Jean Valjean</span>
+                <span class="city">44000 Nantes</span>
+            </address>
+        </footer>
+    </body>
+</html>
