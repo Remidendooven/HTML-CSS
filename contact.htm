@@ -1,0 +1,142 @@
+<!DOCTYPE html> 
+<html lang="fr" class="contact">
+	<head> <!-- Meta information -->
+		<meta charset="UTF-8"> <!-- Information sur l'encodage-->
+		<title>Formulaire de contact</title> 
+		<link rel="stylesheet" href="style.css">
+
+	</head>
+
+	<body>
+
+		<header class="main-header">
+			<h1> Formulaire de contact</h1>
+			<nav>
+				<ul>
+					
+					<li> <a href="index.htm">Acceuil du CV</a></li>
+					<li> <a href="contact.htm">Contact</a></li>
+
+				</ul>
+			</nav>	
+		</header>
+
+		<main roles="main">
+			<h2>Contactez-moi!</h2>
+			<form action="post">
+				<fieldset>
+					<legend>Informations personnelles</legend>
+					<div class="field-line">
+					<label for="">Vous êtes</label>
+					<select name="you" id="you">
+						<option value="chanteur">Chanteur d'opérette</option>
+						<option value="peintre">peintre</option>
+						<option value="developpeur">développeur</option>
+					</select>
+					</div>
+
+					<div class="field-line">
+					<label for="name">Nom</label>
+					<input type="text" id="name" name="nom" placeholder="Ex:Dupond">
+					</div>
+
+					<div class="field-line">
+					<label for="firstname">Prénom</label>
+					<input type="text" id="firstname" name="Prénom"placeholder="Toto">
+					</div>
+
+					<div class="field-line">
+					<label for="email">Email</label>
+					<input type="email" id="email" name="email"placeholder="Leboulet@leboulet.com ">
+					</div>
+
+					<div class="field-line">
+					<label for="phone">Téléphone</label>
+					<input type="phone" id="phone" name="téléphone"placeholder="0606060606">
+					</div>
+
+					<div class="field-line">
+					<label for="objet">Objet</label>
+					<input type="object" id="objet" name="objet"placeholder="Ecrire ici">
+					</div>
+
+					<div class="field-line">
+					<label for="message">Corps du message</label>
+					<textarea name"" id="message"name="message"placeholder="ecrire ici"></textarea>
+					</div>
+
+					<div class="field-line">
+					<label for="Jointe">Pièce jointe</label>
+					<input type="phile" id="jointe" name="pièce jointe">
+					</div>
+
+					<div class="field-line">
+					<label for="color">Couleur préférée</label>
+					<input type="color" id="color" name="color">
+					</div>
+
+
+				</fieldset>
+
+				<fieldset>
+					<legend> Informations Complémentaires</legend>
+					<div class="field-line">
+						<h3>Sexe</h3>
+						<ul>
+							<li class="field_group_line">
+								<input type="radio" name="sexe" id="sex" name="">
+								<label for="sex">Mâle</label>
+							</li>
+
+						<li class="field_group_line">
+								<input type="radio" name="sexe" id="sex2">
+								<label for="sex2">Femelle</label>
+						</li>
+
+						<li class="field_group_line">
+								<input type="radio" name="sexe" id="sex3">
+								<label for="sex3">Autre</label>
+						</li>
+						</ul>
+
+					<div class="field-line">
+						<h3>Vous aimez?</h3>
+						<ul>
+							<li class="field_group_line">
+								<input type="checkbox" id="choco">
+								<label for="choco">Chocolat</label>
+							</li>
+
+						<li class="field_group_line">
+								<input type="checkbox"id="tea">
+								<label for="tea">Thé</label>
+						</li>
+
+						<li class="field_group_line">
+								<input type="checkbox" id="fraise">
+								<label for="fraise">Les fraises</label>
+						</li>
+						</ul>
+					</div>
+				</fieldset>
+				<div class="validation">
+					<input type="button" value="Envoyer ces infos à la NSA">
+				</div>
+			</form>
+		</main>
+
+	<footer>
+		<address>
+			<strong>Adresse</strong>
+			<span class="street">45 rue du croquet du bosc</span>
+			<span class="city">76220 Gournay en Bray</span>
+		</address>
+
+	</footer>
+			
+			
+
+		
+	</body>
+
+</html>

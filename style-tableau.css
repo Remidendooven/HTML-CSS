@@ -1,0 +1,54 @@
+html, body {
+	height: 100%;
+}
+body{
+	font-family: Helvetica, sans-serif;
+	font-weight: 100;
+	margin :0;
+}
+td{
+	color:#fff;
+	font-size: 10em;
+	text-shadow: 20px 20px 20px rgba(0,0,0,.3);
+}
+
+.mon-tableau{
+	border-collapse: collapse;
+	height: 100%;
+	width:100%;
+}
+
+.l1-1{
+	background-color: purple;
+}
+
+.l1-2{
+	background-color: yellow;
+}
+
+.l1-3{
+	background-color: blue;
+}
+
+.l2-1{
+	background-color: green;
+}
+
+.l2-2{
+	background-color: red;
+}
+
+.l2-3{
+	background-color: black;
+}
+.l3-1{
+	background-color: pink;
+}
+
+.l3-2{
+	background-color: orange;
+}
+
+.l3-3{
+	background-color: grey;
+}
